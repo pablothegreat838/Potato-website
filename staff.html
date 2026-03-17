@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Staff Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="login">
+  <h2>Enter Password</h2>
+  <input type="password" id="pass">
+  <button onclick="login()">Login</button>
+</div>
+
+<div id="panel" style="display:none;">
+  <h1>🛠 Staff Panel</h1>
+
+  <h3>Change Announcement</h3>
+  <input type="text" id="newBanner">
+  <button onclick="changeBanner()">Update</button>
+
+  <h3>Reports</h3>
+  <div id="reports"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
